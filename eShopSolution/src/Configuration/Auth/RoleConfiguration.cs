@@ -1,6 +1,6 @@
 ﻿namespace eShopSolution.Api.src.Configuration.Auth
 {
-    public class Role
+    public class RoleConfiguration
     {
     }
 }

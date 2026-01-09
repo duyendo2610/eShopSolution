@@ -21,15 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="src\Common\" />
     <Folder Include="src\DTOs\" />
     <Folder Include="src\Controllers\" />
-    <Folder Include="src\Common\" />
-    <Folder Include="src\Features\" />
-    <Folder Include="src\Models\Cart\" />
-    <Folder Include="src\Models\Inventorys\" />
-    <Folder Include="src\Models\Reviews\" />
-    <Folder Include="src\Models\Promotions\" />
-    <Folder Include="src\Models\Orders\" />
     <Folder Include="src\Services\" />
   </ItemGroup>
 

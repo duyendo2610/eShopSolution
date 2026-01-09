@@ -2,5 +2,7 @@
 {
     public class ShippingProvider
     {
+        public int Id { get; }
+        public string Name { get; set; }
     }
 }
