@@ -8,5 +8,8 @@
         public string Status { get; set; }
         public string TrackingCode { get; set; }
         public DateTime CreatedAt { get; set; }
+
+        public Order Order { get; set; }
+        public ShippingProvider ShippingProvider { get; set; }
     }
 }

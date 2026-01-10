@@ -1,4 +1,6 @@
-﻿namespace eShopSolution.Api.src.Models.Inventorys
+﻿using eShopSolution.Api.src.Models.Catalog;
+
+namespace eShopSolution.Api.src.Models.Inventorys
 {
     public class StockMovement
     {
@@ -9,5 +11,6 @@
         public string ReferenceType { get; set; }
         public int? ReferenceId { get; set; }
         public DateTime CreatedAt { get; set; }
+        public ProductVariant ProductVariant { get; set; }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace eShopSolution.Api.src.Models.Catalog
+﻿using eShopSolution.Api.src.Models.Reviews;
+
+namespace eShopSolution.Api.src.Models.Catalog
 {
     public class Product
     {
@@ -10,5 +12,13 @@
         public int BrandId { get; set; }
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
+
+        public Category Category { get; set; }
+
+        public Brand Brand { get; set; }
+
+        public List<ProductVariant> ProductVariants { get; set; }
+        public List<ProductImage> ProductImages { get; set; }
+        public List<Review> Reviews { get; set; }
     }
 }

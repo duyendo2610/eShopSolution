@@ -13,5 +13,7 @@
         public DateTime StartAt { get; set; }
         public DateTime EndAt { get; set; }
         public bool IsActive { get; set; }
+
+        public List<CouponUsage> CouponUsages { get; set; }
     }
 }

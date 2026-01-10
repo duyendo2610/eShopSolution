@@ -5,6 +5,8 @@
         public int Id { get; set; }
         public int VariantId { get; set; }
         public string OptionName { get; set; }   
-        public string OptionValue { get; set; } 
+        public string OptionValue { get; set; }
+
+        public ProductVariant productVariant { get; set; }
     }
 }
